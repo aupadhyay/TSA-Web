@@ -99,3 +99,10 @@ a{
 .nav>ul>li:hover .dropdown-content {
     display: block;
 }
+.center{
+	text-align: center;
+}
+.left
+{
+	text-align:left;
+}
