@@ -84,3 +84,7 @@ background-color: rgba(0,0,0,0.1);
 .center{
 	text-align: center;
 }
+.left
+{
+	text-align:left;
+}
