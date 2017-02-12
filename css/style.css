@@ -81,3 +81,6 @@ background-color: rgba(0,0,0,0.1);
 .nav>ul>li:hover .dropdown-content {
     display: block;
 }
+.center{
+	text-align: center;
+}
