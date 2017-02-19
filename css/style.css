@@ -24,6 +24,7 @@ p{
 
 ul{
 	margin: 0;
+	padding:0;
 }
 
 a{
@@ -32,6 +33,8 @@ a{
 	text-decoration:none;
 	color:white;
 }
+
+
 
 /* navbar */
 
@@ -99,16 +102,61 @@ a{
 .nav>ul>li:hover .dropdown-content {
     display: block;
 }
+
+/* footer */
+
+.footer{
+	width: 100%;
+	background-color: #424242;
+	color:#C9C9C9;
+	position: absolute;
+	bottom: 0px;
+	padding-bottom:20px;
+}
+
+.footer > .site-map{
+	display:inline-block;
+	width: 15%;
+	text-align: center;
+}
+
+.footer > .site-map > ul{
+	list-style: none;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.footer > .site-map > p{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.footer > .site-map > ul > li{
+	padding: 0px;
+	font-size: 14px;
+	font-family: 'proxima-nova';
+}
+
+.footer > .social-media{
+	display:inline-block;
+	width: 55%;
+	text-align: center;
+}
+
+
+
 .center{
 	text-align: center;
 }
-.left
-{
+
+.left{
 	text-align:left;
 }
+
 .right{
 	text-align:right;
 }
+
 .header1 p{
 	width: 35%;
 	margin-top:0px; 
@@ -119,3 +167,4 @@ a{
 .displayPic img{
 	float:right;
 }
+
