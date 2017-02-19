@@ -114,6 +114,7 @@ a{
 	margin-top:0px; 
 	float: left; 
 	display:inline-block;
+	font-size: 20px;
 }
 .displayPic img{
 	float:right;
