@@ -157,7 +157,7 @@ a{
 	text-align:right;
 }
 
-.header1 p{
+.content>p{
 	width: 35%;
 	margin-top:0px; 
 	float: left; 
@@ -166,5 +166,8 @@ a{
 }
 .displayPic img{
 	float:right;
+}
+.content{
+	padding: 25px 15%;
 }
 
