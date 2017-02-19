@@ -109,3 +109,12 @@ a{
 .right{
 	text-align:right;
 }
+.header1 p{
+	width: 35%;
+	margin-top:0px; 
+	float: left; 
+	display:inline-block;
+}
+.displayPic img{
+	float:right;
+}
