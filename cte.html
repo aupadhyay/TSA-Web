@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>CTE Teachers</title>
+		<link rel="stylesheet" href="css/animate.css">
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style type="text/css">
+			@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+			@media only screen and (max-device-width: 480px) {
+				.modal-title{
+					font-size:24px;
+				}
+				.modal-body>center>img{
+					width: 100% !important;
+				}
+
+				#awards, #volunteer, #experience{
+					padding:20px !important;
+				}
+
+				#dividerCont{
+					padding:0px 15px !important;
+				}
+				.divider-buttons{
+					margin-bottom: 10px !important;
+				}
+
+			}
+
+			.divider-buttons{
+				padding:0px; 
+				font-family: 'Lato'; 
+				background-color:rgba(0,0,0,0.7); 
+				transition: background-color 0.5s linear;
+				border: none;
+				font-size:13px; 
+				padding-left:20px; 
+				padding-right:20px; 
+				color:white; 
+				line-height:0.8;
+				padding:10px 28px;
+				display: inline-block;
+				margin-right:5px
+			}
+
+			.divider-buttons.active, .divider-buttons:hover{
+				background-color: rgba(41,128,185, 0.85);
+			}
+			
+			p{
+				font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    		line-height: 1.6em;
+	    		font-family: "proxima-nova";
+	    		font-size: 16px;
+	    		line-height: 1.8em;
+	    		letter-spacing: 0px;
+	    		font-weight: 400;
+	    		font-style: normal;
+	    		color: rgba(26,26,26,.6);
+			}
+			li{
+				font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+				line-height: 1.5em;
+				font-size: 16px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="nav">  <!-- start of navbar -->
+			<ul>
+				<li>
+					<div class="dropdown">
+  						<span><a href="index.html">HOME</a></span>
+					</div>
+				</li>
+				<li class="active">
+					<div class="dropdown">
+  						<span><a href="cte.html">CTE</a></span>
+  						<div class="dropdown-content">
+  							<a href="">Classes</a>
+  							<a href="">Teachers</a>
+  							<a href="">Student Projects</a>
+  						</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="dropdown">
+  						<span><a href="msj-tsa/index.html">MSJ TSA</a></span>
+  						<div class="dropdown-content">
+  							<a>About</a>
+  							<a href="msj-tsa/officers.html">Officers</a>
+  							<a>Resources</a>
+  							<a>Events</a>
+  							<a>Awards</a>
+  							<a>Contact</a>
+  						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+  						<span><a href="">DESIGN BRIEF</a></span>
+  						<div class="dropdown-content">
+  							<a href="aug-reality/uses.html">Uses</a>
+  							<a>Technology</a>
+  							<a>Benefit</a>
+  							<a>Concerns</a>
+  						</div>
+					</div>
+				</li>
+			</ul>
+		</div> <!-- end of navbar -->
+
+	   <div class = "content"> <!--start of teacher bio-->
+		   <div id="dividerCont" class = "row" style = "">
+				<center>
+					
+					<button class="divider-buttons active" id="classesBtn" goto="classes" type = "submit">CLASSES</button>
+
+					<button class="divider-buttons" id="teachersBtn" goto="teachers" type = "submit" >TEACHERS</button>
+
+					<button class="divider-buttons" id="projectsBtn" goto="projects" type = "submit">PROJECTS</button>
+
+				</center>
+			</div>
+			<div class="container" id="portfolioCont" style = "width:95%">
+				<div class="row" id="classes" style="clear:both;margin-top:20px;margin-bottom:50px;">
+					
+					<div class="row" style="border-bottom: 2px solid rgba(0,0,0,0.1);margin-bottom: 30px;padding-bottom:10px;">
+						<div class="col-md-4">
+							<img src="img/saldanaPic.jpg" style="width:90%;border-radius:3px;">
+						</div>
+						<div class="col-md-8">
+							<h1 style="font-family:'proxima-nova'; font-size: 16px;text-transform: uppercase;display:inline-block;color:black;line-height:1.8em;letter-spacing: 2px;color:#4893c3">
+
+								<b>Charles F. Brucker</b>
+							</h1>
+
+							<p style="font-family: 'proxima-nova';font-size: 16px;line-height: 1.8em;display:inline-block; float:right; letter-spacing: 0px;color: gray;font-size: 16px;">15+ years</p>
+
+							<p style="font-family: 'proxima-nova';font-size:18px;color: #6bb9f0;">Teaches APCS, Intro to C++, and Discrete Mathematics</p>
+
+							<p style="font-family: 'proxima-nova';font-size:15px;color: rgba(26,26,26,.6);">
+								Saldana is the most helpful teacher I know. He is so caring towards his students and works day and night to make sure his students learn to their fullest ability.
+							</p>
+
+						</div>
+					</div>
+
+
+
+
+
+				</div>
+
+				<div class="row" id="teachers" style="clear:both;margin-top:0%;margin-bottom:50px;padding:0px 150px;">
+					
+
+
+
+				</div>
+				<div class="row" id="projects" style="clear:both;margin-top:0%;margin-bottom:50px;padding:0px 150px;">
+					
+
+				</div>
+			</div>
+			
+
+	    </div> <!--end of teacher bio-->
+	    
+	    <script>
+	    	$(document).ready(function() {
+	    		$('.divider-buttons').click(function(){
+					var showDiv = $(this).attr('goto');
+					$('#classesBtn').attr('class', 'divider-buttons');
+					$('#teachersBtn').attr('class', 'divider-buttons');
+					$('#projectsBtn').attr('class', 'divider-buttons');
+
+					$(this).attr('class', 'divider-buttons active');
+					$('#classes').hide();
+					$('#teachers').hide();
+					$('#projects').hide();
+					$('#' + showDiv).show();
+					$('#' + showDiv).addClass("animated fadeInUp");
+
+				});
+
+				$('#classes').show();
+				$('#teachers').hide();
+				$('#projects').hide();
+			});
+	    </script>
+	    
+	</body>
+
+</html>
