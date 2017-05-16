@@ -5,10 +5,17 @@
 		<link rel="stylesheet" href="css/style.css">
 		<script src="https://code.jquery.com/jquery.min.js"></script>
 		<title>MSJ TSA - Home</title>
+
+		<style>
+			.nav > ul > li.active{
+				background-color: rgba(21,101,192, 0.5)!important;
+			}
+		</style>
 	</head>
 
 	<body>
-		<div class="nav">  <!-- start of navbar -->
+
+		<div class="nav nav-trans" style="position:fixed;z-index: 2000;">  <!-- start of navbar -->
 			<ul>
 				<li class="active">
 					<div class="dropdown">
@@ -52,45 +59,26 @@
 				</li>
 			</ul>
 		</div> <!-- end of navbar -->
+		
 
-
-		<div class="footer"> <!-- start of footer -->
-			<div class="site-map" id="CTE">
-				<p>CTE</p>
-				<ul>
-					<li>Classes</li>
-  					<li>Teachers</li>
-  					<li>Student Projects</li>
-				</ul>
+		<div class="headerSection">
+			<div class="background-image" style="width: 100%; height:100vh; background: url(img/group1.JPG); background-size: cover;">
+				<!--img src="img/group1.JPG" width="100%" alt=""-->
 			</div>
-			
-			<div class="site-map" id="MSJ">
-				<p>MSJ TSA</p>
-				<ul>
-					<li>About</li>
-  					<li>Officers</li>
-  					<li>Resources</li>
-  					<li>Events</li>
-  					<li>Awards</li>
-  					<li>Contact</li>				
-  				</ul>
+			<div class="darker" style="z-index:1000;width: 100%; height:100vh;position: absolute;top:0;left: 0; background-color: rgba(0,0,0,0.4);">
 			</div>
 
-			<div class="site-map" id="design">
-				<p>Design Brief</p>
-				<ul>
-					<li>Uses</li>
-  					<li>Technology</li>
-  					<li>Benefit</li>
-  					<li>Concerns</li>
-				</ul>
-			</div>
-
-
-			<div class="social-media">
-				
-			</div>
-
+			<img src="img/TSA-blue.png" width="50%" style="z-index:2000;display:inline-block;position: absolute;top:25vh;left:25%;" alt="">
+			<h1 style="z-index:2000;width:50%;font-size:45px; color:white;position: absolute; top:75vh; left:35%;">WEBMASTER 2017</h1>
 		</div>
+
+		<div class="missionContent">
+			
+		</div>
+
+
+
+
+
 	</body>
 </html>
