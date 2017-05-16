@@ -4,6 +4,7 @@
 	<head>
 		<link rel="stylesheet" href="../css/style.css">
 		<script src="https://code.jquery.com/jquery.min.js"></script>
+		<link rel="stylesheet" href="../css/animate.css">
 		<title>MSJ TSA - Home</title>
 		<style>
 			
@@ -77,9 +78,18 @@
 				<div style="width: 15%;float:left;margin-top: 50px;margin-right: 50px;">
 					<a class="caret" style="display:inline-block;border-radius: 50%;width:50px;height:50px;background-color:blue;float:right;text-align: center;"><img src="https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-128.png" width="70%" style="filter: invert(100%);" alt=""></a>
 				</div>
-				<div style="width: 70%;float:right;">
+				<div id="contentStuff" style="width: 70%;float:right;">
 					<h1 class="title">Uses of Augmented Reality</h1>
 					<p class="desc">AR applications can become the backbone of the education industry. Apps are being developed which embed text, images, and videos, as well as real–world curriculums.</p>
+					<p class="fulldesc" data-toggle="false" style="display:none;">
+						AR applications can become the backbone of the education industry. Apps are being developed which embed text, images, and videos, as well as real–world curriculums.
+						Printing and advertising industries are developing apps to display digital content on top of real world magazines.
+						With help of AR, travelers can access real-time information of historical places just by pointing their camera viewfinder to subjects.
+						AR is helpful in development of translation apps that can interpret text in other languages for you.
+						Location based AR apps are major forms of AR apps. Users can access information about nearest places relative to current location. They can get information about places and choose based on user reviews.
+						With the help of Unity 3d Engine, AR is being used to develop real-time 3D Games.
+
+					</p>
 				</div>
 			</div>
 		</div>
@@ -125,7 +135,26 @@
 
 		<script>
 			$('.caret').on("click", function(){
-				$(this).addClass('rotatenow');
+
+				if($(this).closest(".dropdown_row").find('.fulldesc').attr("data-toggle") == "false"){
+					$(this).removeClass('rotateback');
+					$(this).addClass('rotatenow');
+					$(this).closest(".dropdown_row").find('.fulldesc').css("display", "block");
+					$(this).closest(".dropdown_row").find('.fulldesc').attr("data-toggle","true");
+					$(this).closest(".dropdown_row").find('.fulldesc').addClass('animated fadeIn');
+					
+				}else if($(this).closest(".dropdown_row").find('.fulldesc').attr("data-toggle") == "true"){
+					$(this).removeClass('rotatenow');
+					$(this).addClass('rotateback');
+
+					$(this).closest(".dropdown_row").find('.fulldesc').attr("data-toggle","false");
+        			
+        				$(this).closest(".dropdown_row").find('.fulldesc').css("display", "none");
+
+    
+
+					
+				}
 			});
 		</script>
 	</body>
