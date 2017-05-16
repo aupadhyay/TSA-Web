@@ -141,8 +141,12 @@ a{
 	background-color: #424242;
 	color:#C9C9C9;
 	position: absolute;
-	bottom: 0px;
+	 right: 0;
+ 	 bottom: 0;
+  	left: 0;
+  	padding: 1rem;
 	padding-bottom:20px;
+	display:block;
 }
 
 .footer > .site-map{
@@ -201,4 +205,22 @@ a{
 .content{
 	padding: 25px 15%;
 }
+
+.containcaret {
+	width: 10%;float:left;
+}
+
+.holdcaret{
+	padding:20px;padding-right:0px
+}
+
+.contentholder{
+	padding:15px
+}
+
+.truecontent{
+	margin:0px;padding:10px
+}
+
+
 
