@@ -317,7 +317,7 @@ a{
 }
 .successpic{
 	width:50%;
-	
+	max-height: 500px;
 	background-color: gray;
 	display:inline-block;
 }
@@ -351,10 +351,37 @@ ul {
 
 }
 
+.extracontainer{
+	background-color: #0277BD;
+	padding:50px;
+	color:white;
 
+}
 
+.compconttitle{
+	font-family: "open Sans";
+	font-weight: 700;
+}
 
+.compcontainer{
+	width:49%;
+	display:inline-block;
 
+}
+
+.compphoto{
+	width:30%;
+}
+.compdesc{
+	width:60%;
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+.comptitle{
+	font-family: "Montserrat";
+	font-weight:700;
+}
 
 
 
